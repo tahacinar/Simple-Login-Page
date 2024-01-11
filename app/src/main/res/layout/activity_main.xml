@@ -47,6 +47,7 @@
                 android:drawableLeft="@drawable/baseline_person_24"
                 android:textColor="@color/black"
                 android:drawablePadding="8dp"/>
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -59,6 +60,17 @@
                 android:drawableLeft="@drawable/baseline_lock_24"
                 android:textColor="@color/black"
                 android:drawablePadding="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Login"
+                android:id="@+id/loginButton"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/lavander"
+                app:cornerRadius = "20dp"/>
+
 
 
         </LinearLayout>
