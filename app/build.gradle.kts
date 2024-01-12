@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.tahacinar.loginscreen"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.tahacinar.loginscreen"
